@@ -22,6 +22,8 @@ As atividades 1 e 2 para elaborar testes para a tela bancária e desafio SQL est
 - Nessa situação decidi fazer as specs de teste pelo recurso para ter um volume menor de arquivos, ao invés de fazer cada spec por ação.
 - Decidi criar pacotes boards, cards para manter escalável o projeto, caso as specs de testes aumentem para esses recursos, ou crie specs de testes específicas para alguma ação ou cenário futuro.
 - Não estou excluindo a lista criada no teste de criar card(arquivo manage-cards.spec.cy.js) porque não existe recurso na API do Trello para deletar uma lista, somente criar, então por isso na ListRequest.js só tem o método createAList().
+#### Mapa mental
+<img width="1740" height="954" alt="image" src="https://github.com/user-attachments/assets/6e8144a5-c806-4362-90d1-f7be60c5a56f" />
 
 ### Para execução do projeto
 ```

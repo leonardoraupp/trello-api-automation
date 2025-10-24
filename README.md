@@ -1,5 +1,8 @@
 # Automação API Trello
 
+### Aviso
+As atividades 1 e 2 para elaborar testes para a tela bancária e desafio SQL estão na pasta other na raiz do projeto.
+
 ### Configuração do ambiente
 - Instalação das dependências
   ```

@@ -1,5 +1,5 @@
 class BoardRequest {
-  createBoard(name) {
+  createABoard(name) {
     return cy.request({
       method: "POST",
       url: "/1/boards/",
@@ -12,7 +12,7 @@ class BoardRequest {
     });
   }
 
-  deleteBoard(id) {
+  deleteABoard(id) {
     return cy.request({
       method: "DELETE",
       url: `/1/boards/${id}`,

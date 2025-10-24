@@ -1,0 +1,15 @@
+1. Tipos de teste: Funcional, Negativo, Boundary/Edge, UI/Usabilidade.
+
+2. Técnicas de teste: Particionamento de Equivalência, Análise de Valor Limite, Tabela de Decisão, Fluxo Feliz/Alternativo, Teste Exploratório.
+
+3. Casos de teste:
+Cenário 1: Transferência válida com todos os campos corretos.
+Cenário 2: Transferência com saldo insuficiente → mensagem de erro.
+Cenário 3: Transferência com valor zero ou negativo → rejeição.
+Cenário 4: Transferência com cliente destino inválido → rejeição.
+Cenário 5: Cancelar transferência → campos retornam ao estado inicial.
+Cenário 6: Valores nos limites do saldo → aprovado ou rejeitado conforme regra.
+
+4. Observações
+Testes de usabilidade podem ser integrados aos funcionais, validando botões, mensagens, estados da tela.
+Testes exploratórios aplicados para cenários não previstos nos casos formais.
